@@ -12,8 +12,8 @@ var computer, computerBase;
 function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
 
-  engine = Engine.create();
-  world = engine.world;
+  //engine = Engine.create();
+  //world = engine.world;
 
   playerBase = new PlayerBase(300, random(450, height - 300), 180, 150);
   
